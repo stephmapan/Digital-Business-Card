@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #23252C;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  background-color: #1A1B21;
+  max-width: 430px;
+}
+
+.header > img {
+  max-width: 375px;
+  border: none;
+}
+
+.header > h1 {
+  font-size: 25px;
+  font-weight: 550;
+  color: #ffffff;
+}
+
+.header .header-role {
+  color: #F3BF99;
+  font-size: 12.8px;
+  font-weight: 300;
+}
+
+.header .header-website {
+  font-weight: 300;
+  color: #F5F5F5;
+  font-size: 10.24px;
+}
+
+.header .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 30px;
+}
+
+.header .btn-container .header-emailbtn {
+  color: #374151;
+  background-color: #ffffff;
+}
+
+.header .btn-container .header-linkedinbtn {
+  color: #ffffff;
+  background-color: #5093e2;
+}
+
+.header .btn-container .header-linkedinbtn > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header .btn-container .header-emailbtn > a {
+  color: #374151;
+  text-decoration: none;
+}
+
+.header .btn-container > i {
+  margin-right: 20px;
+}
+
+button {
+  width: 125px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: "Inter";
+  font-size: 14px;
+  transition: border-color 0.25s;
+  cursor: pointer;
+}
+
+.main {
+  padding: 0px 40px;
+  padding-bottom: 20px;
+}
+
+.main .main-about-info, .main-interests-info {
+  font-weight: 300;
+  font-size: 12px;
+  transform: translateY(-12px);
+}
+
+.footer {
+  background-color: #161619;
+  height: 64px;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer > a {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.app {
+  background-color: #1A1B21;
+  width: 375px;
+  transform: translate(450px);
+}
+
+
