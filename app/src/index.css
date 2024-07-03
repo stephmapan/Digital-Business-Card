@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Header CSS */
 .header {
   text-align: center;
   align-items: center;
@@ -84,6 +85,7 @@ button {
   cursor: pointer;
 }
 
+/* Main Body CSS */ 
 .main {
   padding: 0px 40px;
   padding-bottom: 20px;
@@ -95,6 +97,7 @@ button {
   transform: translateY(-12px);
 }
 
+/* Footer CSS */
 .footer {
   background-color: #161619;
   height: 64px;
@@ -111,6 +114,7 @@ button {
   text-decoration: none;
 }
 
+/* Global CSS and Dynamic Features */
 a {
   text-decoration: none;
 }
